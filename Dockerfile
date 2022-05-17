@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN apt install update
+RUN apt update
 RUN apt install apache2 -y
 RUN apt install git -y
 RUN git clone https://github.com/Pablo1923/Trabajo-final.git
